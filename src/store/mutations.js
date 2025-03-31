@@ -62,7 +62,7 @@ const mutations = {
 	},
 
 	SET_RECOMMEND_SWITCH(state, val) {
-		state.recommendSwitch = val
+		state.recommendSwitch = false
 	},
 
 	SET_RSS_SWITCH(state, val) {

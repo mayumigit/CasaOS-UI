@@ -222,6 +222,7 @@
 					<!--  Show other Docker container app(s) Switch End  -->
 					<!--  Recommended modules Switch Start  -->
 					<div
+						v-if="false"
 						class="is-flex is-align-items-center mb-1 _is-large _box hover-effect _is-radius pr-2 mr-4 ml-4"
 					>
 						<div class="is-flex is-align-items-center is-flex-grow-1 _is-normal">
@@ -412,7 +413,7 @@ export default {
 				lang: this.getInitLang(),
 				//search_engine: "https://duckduckgo.com/?q=",
 				//search_switch: true,
-				recommend_switch: true,
+				recommend_switch: false,
 				shortcuts_switch: false, // Not used
 				widgets_switch: false, // Not used
 				existing_apps_switch: true,
