@@ -11,10 +11,6 @@
 				<brand-bar v-if="!$store.state.isMobile && $router.currentRoute.path === '/'"
 						   v-animate-css="brandAni"></brand-bar>
 				<!-- BrandBar End -->
-				<!-- ContactBar Start -->
-				<contact-bar v-if="!$store.state.isMobile && $router.currentRoute.path === '/'"
-							 v-animate-css="contactAni"></contact-bar>
-				<!-- ContactBar End -->
 			</div>
 
 		</template>
@@ -28,7 +24,7 @@
 
 <script>
 import BrandBar      from './components/BrandBar.vue'
-import ContactBar    from './components/ContactBar.vue'
+//import ContactBar    from './components/ContactBar.vue'
 import CasaWallpaper from './components/wallpaper/CasaWallpaper.vue'
 import {mixin}       from './mixins/mixin';
 
@@ -66,7 +62,7 @@ const customIconConfig = {
 export default {
 	components: {
 		BrandBar,
-		ContactBar,
+		//ContactBar,
 		CasaWallpaper
 	},
 	mixins: [mixin],
