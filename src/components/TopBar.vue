@@ -144,6 +144,7 @@
 
 					<!-- WebUI Port Start -->
 					<div
+						v-if="false"
 						class="is-flex is-align-items-center mb-1 _is-large _box hover-effect _is-radius pr-2 mr-4 ml-4"
 					>
 						<div class="is-flex is-align-items-center is-flex-grow-1 _is-normal">
