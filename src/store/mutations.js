@@ -54,7 +54,7 @@ const mutations = {
 	},
 
 	SET_SEARCH_ENGINE_SWITCH(state, val) {
-		state.searchEngineSwitch = val
+		state.searchEngineSwitch = false
 	},
 
 	SET_EXISTING_APPS_SWITCH(state, val) {

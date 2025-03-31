@@ -76,6 +76,7 @@
 					<h2 class="_title mb-4 has-text-weight-bold">{{ $t("Settings") }}</h2>
 					<!-- Search Engine Switch Start  -->
 					<div
+						v-if="false"
 						class="is-flex is-align-items-center mb-1 _is-large _box hover-effect _is-radius pr-2 mr-4 ml-4"
 					>
 						<div class="is-flex is-align-items-center is-flex-grow-1 _is-normal">
@@ -97,7 +98,7 @@
 
 					<!-- Search Engine Start -->
 					<div
-						v-if="barData.search_switch"
+						v-if="false"
 						class="is-flex is-align-items-center mb-1 _is-large _box hover-effect _is-radius pr-2 mr-4 ml-4"
 					>
 						<div class="is-flex is-align-items-center is-flex-grow-1 _is-normal">
@@ -409,8 +410,8 @@ export default {
 			// System
 			barData: {
 				lang: this.getInitLang(),
-				search_engine: "https://duckduckgo.com/?q=",
-				search_switch: true,
+				//search_engine: "https://duckduckgo.com/?q=",
+				//search_switch: true,
 				recommend_switch: true,
 				shortcuts_switch: false, // Not used
 				widgets_switch: false, // Not used

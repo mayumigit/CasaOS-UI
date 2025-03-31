@@ -19,7 +19,7 @@ const state = {
 
 	// System Config
 	searchEngine: '',
-	searchEngineSwitch: true,
+	searchEngineSwitch: false,
 	existingAppsSwitch: true,
 	recommendSwitch: true,
 	rssSwitch: false,
