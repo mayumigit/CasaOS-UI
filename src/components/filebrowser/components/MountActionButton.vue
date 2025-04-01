@@ -18,14 +18,14 @@
 					<b-icon custom-size="mdi-18px" icon="plus"></b-icon>
 				</p>
 			</template>
-			<b-dropdown-item aria-role="menuitem" @click="showDiskManagement">
+			<b-dropdown-item aria-role="menuitem" @click="showDiskManagement" v-if="false">
 				<div class="is-flex is-align-items-center">
 					<div class="img-container mr-1"></div>
 					{{ $t('New Local Storage') }}
 				</div>
 
 			</b-dropdown-item>
-			<hr v-if="platforms.length > 0" class="dropdown-divider">
+			<hr v-if="false" class="dropdown-divider" >
 			<b-dropdown-item v-for="(driver, index) in platforms" :key="index + 'platform'" aria-role="menuitem"
 							 @click="auth(driver)">
 				<div class="is-flex is-align-items-center">

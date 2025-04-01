@@ -33,7 +33,7 @@
 
 			<!-- Local Storage List Start -->
 			<tree-list-item v-for="item in localStorageList" :key="item.path" :isActive="isActive"
-				:item="item"></tree-list-item>
+				:item="item"  v-if="false"></tree-list-item>
 			<!-- Local Storage List End -->
 
 			<!-- Network Storage List Start -->

@@ -131,7 +131,7 @@ export default {
 		},
 
 		buildPathArray(path) {
-			if (path == "/") {
+			if (path.startsWith("/")) {
 				path = path.substr(1);
 			}
 			let arr = path.split("/")

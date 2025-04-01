@@ -2,7 +2,7 @@
 	<div class="ul">
 		<!-- Root List Start -->
 		<tree-list-item v-for="item in rootDataList" :key="item.path" :isActive="isActive" :item="item"
-			iconColor="casa-color-blue"></tree-list-item>
+			iconColor="casa-color-blue" v-if="false"></tree-list-item>
 		<!-- Root List End -->
 
 		<!-- Data List Start -->
