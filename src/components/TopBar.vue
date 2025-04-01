@@ -334,7 +334,7 @@
 			<!-- Settings Dropmenu End -->
 
 			<!-- Terminal  Start -->
-			<div class="is-flex is-align-items-center ml-3 _fixed-height" @click="showTerminalPanel">
+			<div class="is-flex is-align-items-center ml-3 _fixed-height" @click="showTerminalPanel" v-if="false">
 				<b-tooltip
 					:active="!$store.state.isMobile"
 					:label="$t('Terminal & Logs')"
