@@ -67,11 +67,11 @@ export default {
 			wallpaperItems: [
 				{
 					name: "Built-in wallpaper 1",
-					path: require('@/assets/background/wallpaper01.jpg')
+					path: require('@/assets/background/cassettleos-wallpaper01.svg')
 				},
 				{
 					name: "Built-in wallpaper 2",
-					path: require('@/assets/background/wallpaper02.jpg')
+					path: require('@/assets/background/cassettleos-wallpaper02.svg')
 				}
 			],
 			backgroundStyleObj: {
