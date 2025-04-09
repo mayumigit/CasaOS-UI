@@ -35,4 +35,3 @@ unused-files.json
 .turbo
 
 /packages/icewhale*
-.env.dev
