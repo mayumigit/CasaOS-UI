@@ -409,5 +409,18 @@
   "Installing {title}": "{title} をインストール中",
   "Legacy app (To be rebuilt).": "古いアプリ (再構築予定)",
   "To be rebuilt.": "再構築されます。",
-  "launch-and-open": "起動して開く"
+  "launch-and-open": "起動して開く",
+  "WifiSettings": "WiFi設定",
+  "WifiCurrentStatus": "現在の状態",
+  "WifiApplayMessage": "🔄 Wi-Fi設定を適用中です。接続が一時的に切れることがあります。",
+  "WifiMode": "モード",
+  "WifiModeAccessPoint": "アクセスポイント",
+  "WifiModeClient": "WiFi接続中",
+  "WifiModeAccessPointDescription": "アクセスポイントモードで動作中（他の機器が接続できます）",
+  "WifiModeClientDescription": "この端末がWi-Fiに接続されている状態です",
+  "WifiUpdateStatus" : "設定を変更",
+  "WifiUpdateAccessPintDescription" : "この端末をWi-Fiアクセスポイントとして動作させます。",
+  "WifiUpdateWifiClientDescription" : "既存のWi-Fiネットワークに接続します。",
+  "WifiUpdateSSIDInput" : "Wi-Fiネットワーク名を入力",
+  "WifiUpdatePasswordInput" : "パスワードを入力"
 }

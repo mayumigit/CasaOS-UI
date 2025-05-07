@@ -14,6 +14,7 @@ import users from "./users.js";
 import local_storage from "./local_storage.js";
 import driver from './driver.js';
 import cloud from './cloud.js';
+import wifi from './wifi.js';
 
 export default {
 	// Apps
@@ -37,4 +38,5 @@ export default {
 	// User
 	users,
 	local_storage,
+	wifi
 }

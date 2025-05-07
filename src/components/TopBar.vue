@@ -281,7 +281,19 @@
 						</div>
 					</div>
 					<!-- Automount USB Drive End  -->
-
+					<!-- WiFi Settings Start -->
+					<div class="_is-large hover-effect _is-radius pr-2 mr-4 ml-4">
+						<div class="is-flex is-align-items-center">
+							<div class="is-flex is-align-items-center is-flex-grow-1 _is-normal">
+								<b-icon class="mr-1 ml-1" icon="wifi" pack="mdi" custom-size="20px" ></b-icon>
+								<div>WiFi</div>
+							</div>
+							<b-button class="ml-2" rounded size="is-small" type="is-dark" @click="showWifiModal"
+								>{{ $t("Change") }}
+							</b-button>
+						</div>
+					</div>
+					<!-- WiFi Setting End -->
 					<!-- Update Start -->
 					<div class="_is-large hover-effect _is-radius pr-2 mr-4 ml-4">
 						<div class="is-flex is-align-items-center">
@@ -392,6 +404,7 @@ import AccountPanel from "./account/AccountPanel.vue";
 import TerminalPanel from "./logsAndTerminal/TerminalPanel.vue";
 import PortPanel from "./settings/PortPanel.vue";
 import UpdateModal from "./settings/UpdateModal.vue";
+import WifiSettingModal from "./settings/WifiSettingModal.vue";
 import { mixin } from "@/mixins/mixin";
 import messages from "@/assets/lang";
 
@@ -735,6 +748,28 @@ export default {
 			});
 		},
 
+		/*************************************************
+		 * PART 1-c1  Dashboard Setting - Wifi
+		 **************************************************/
+		/**
+		 * @description: Open Wifi Modal
+		 * @return {*} void
+		 */
+		 showWifiModal() {
+			this.$messageBus("dashboardsetting_versionupdate", true.toString());
+			this.$buefy.modal.open({
+				parent: this,
+				component: WifiSettingModal,
+				hasModalCard: true,
+				trapFocus: true,
+				canCancel: ["escape"],
+				scroll: "keep",
+				animation: "zoom-in",
+				props: {
+					changeLog: this.updateInfo.version.change_log,
+				},
+			});
+		},
 		/*************************************************
 		 * PART 2  Userinfo
 		 **************************************************/
