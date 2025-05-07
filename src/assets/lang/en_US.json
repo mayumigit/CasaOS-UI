@@ -409,5 +409,18 @@
   "Installing {title}": "Installing {title}",
   "Legacy app (To be rebuilt).": "Legacy app (To be rebuilt).",
   "To be rebuilt.": "To be rebuilt.",
-  "launch-and-open": "Launch and open"
+  "launch-and-open": "Launch and open",
+  "WifiSettings": "WiFiSettings",
+  "WifiCurrentStatus": "CurrrentStatus",
+  "WifiApplayMessage": "🔄 Applying Wi-Fi settings. The connection may be temporarily interrupted.`",
+  "WifiMode": "ModeMode",
+  "WifiModeAccessPoint": "AccessPointAccessPoint",
+  "WifiModeClient": "WiFiClient",
+  "WifiModeAccessPointDescription": "Operating in Access Point mode (other devices can connect)",
+  "WifiModeClientDescription": "This device is currently connected to a Wi-Fi network",
+  "WifiUpdateStatus": "Change settings",
+  "WifiUpdateAccessPintDescription": "Configure this device to act as a Wi-Fi Access Point.",
+  "WifiUpdateWifiClientDescription": "Connect to an existing Wi-Fi network.",
+  "WifiUpdateSSIDInput": "Enter Wi-Fi network name (SSID)",
+  "WifiUpdatePasswordInput": "Enter password"
 }
